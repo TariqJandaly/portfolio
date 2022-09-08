@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #ddd;
+
+}
+
+.page {
+    width: 95vw;
+    height: 70vh;
+    position: static;
+    margin-left: 5vw;
+    margin-top: 30vh;
+    margin-bottom: 0;
+}
+
+.page-1 .text {
+    font-size: 3em;
+    line-height: 1.8em;
+}
+
+.page-1 .text span {
+    color: rgb(0, 194, 0);
+}
+
+.page-2 .text {
+    font-size: 3em;
+    line-height: 1.8em;
+}
+
+.page-2 .text span {
+    color: rgb(0, 194, 0);
+}
