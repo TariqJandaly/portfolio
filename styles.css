@@ -1,38 +1,47 @@
+:root {
+    --color-green: hsl(161, 80%, 41%);
+    --color-green-dark: hsl(161, 23%, 41%);
+    --color-orange: hsl(21, 50%, 50%);
+}
+
+
 * {
     margin: 0;
     padding: 0;
-    color: #222;
+    color: #D4F6CC;
     font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    background-color: #ddd;
+    background-color: hsl(207, 20%, 20%);
 
 }
 
 .page {
-    width: 95vw;
-    height: 70vh;
+    max-width: 100%;
+    height: fit-content;
     position: static;
-    margin-left: 5vw;
-    margin-top: 30vh;
+    margin: 30vh;
     margin-bottom: 0;
+    /* border: 1px solid #000; */
 }
 
-.page-1 .text {
-    font-size: 3em;
+.page-1 p.text {
+    font-size: 2em;
     line-height: 1.8em;
+    font-weight: bolder;
 }
 
-.page-1 .text span {
-    color: rgb(0, 194, 0);
+.page-1 p.description {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--color-green-dark)
 }
 
-.page-2 .text {
-    font-size: 3em;
-    line-height: 1.8em;
+.page-1 p span {
+    color: var(--color-green);
 }
 
-.page-2 .text span {
-    color: rgb(0, 194, 0);
+.page-1 p.description span._span {
+    color: var(--color-orange)
 }
